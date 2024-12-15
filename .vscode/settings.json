@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "*.embeddedhtml": "html",
-        "pseudocode": "bat",
-        "*.css": "tailwindcss",
-        "stdio.h": "c"
-    },
-    "C_Cpp.errorSquiggles": "disabled"
-}
