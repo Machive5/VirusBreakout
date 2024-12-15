@@ -30,8 +30,7 @@ Clone the repository:
 
 Run the game using the following command:
   ```sh
-  chmod x+ run.sh
-  ./run.sh
+  ./virus-breakout
   ```
 
 ## License
