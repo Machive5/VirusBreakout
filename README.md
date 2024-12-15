@@ -36,6 +36,6 @@ Run the game using the following command:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GPL-3.0 License.
 
 Enjoy the game and stay safe from the viruses!
