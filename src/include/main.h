@@ -114,7 +114,7 @@ int player_exp = 0;
 int player_exp_max = 3;
 int player_hp_max = 5;
 bool player_level_up = false;
-float player_score = 0;
+int player_score = 0;
 //-------------------------------------------set bos----------------------------------
 bool boss_spawned = false;
 int boss_health = 100;

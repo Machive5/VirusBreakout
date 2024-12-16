@@ -657,7 +657,7 @@ void spawnBos(WINDOW* win) {
 
     if (g_player.level % 5 == 0) {
         int x = (rand() % g_win_size[0] - 3) + 3;
-        int y = (rand() % (g_win_size[1] - 8)) + 8;
+        int y = (rand() % (g_win_size[1] - 8)) + 5;
 
         boss.pos[0] = x;
         boss.pos[1] = y;
@@ -892,18 +892,20 @@ void init()
         0,//lifetime
     };
 
+    //init bullet
     for (int i = 0; i < (sizeof(g_bullets) / sizeof(g_bullets[0])); i++) {
         g_bullets[i] = bullet;
     }
-
+    //init enemy bullet
     for (int i = 0; i < (sizeof(enemy_bullets) / sizeof(enemy_bullets[0])); i++) {
         enemy_bullets[i] = bullet;
     }
-
+    //init enemy
     for (int i = 0; i < (sizeof(g_enemy) / sizeof(g_enemy[0])); i++) {
         g_enemy[i] = enemy;
     }
 
+    //init color
     start_color();
     init_pair(1, COLOR_BLUE, COLOR_BLACK);
     init_pair(2, COLOR_YELLOW, COLOR_BLACK);
